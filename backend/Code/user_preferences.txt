@@ -1,0 +1,86 @@
+{
+    "id": 1,
+    "content_types": [
+        {
+            "id": 1,
+            "name": "Thought Leadership Strategies"
+        },
+        {
+            "id": 3,
+            "name": "Product Launches"
+        },
+        {
+            "id": 6,
+            "name": "Personal Achievements"
+        }
+    ],
+    "posting_goals": [
+        {
+            "id": 1,
+            "name": "Networking"
+        },
+        {
+            "id": 3,
+            "name": "Seeking new job opportunities"
+        },
+        {
+            "id": 4,
+            "name": "Generating leads"
+        },
+        {
+            "id": 6,
+            "name": "Recruiting talent"
+        }
+    ],
+    "writing_styles": [
+        {
+            "id": 1,
+            "name": "Witty"
+        },
+        {
+            "id": 4,
+            "name": "Formal"
+        },
+        {
+            "id": 5,
+            "name": "Inspirational"
+        },
+        {
+            "id": 6,
+            "name": "Analytical"
+        }
+    ],
+    "industries": [
+        {
+            "id": 1,
+            "name": "AI & ML"
+        },
+        {
+            "id": 3,
+            "name": "Design"
+        },
+        {
+            "id": 4,
+            "name": "Finance"
+        }
+    ],
+    "job_descriptions": [
+        {
+            "id": 2,
+            "name": "Designer (Graphic, UI/UX, Product)"
+        },
+        {
+            "id": 3,
+            "name": "Analyst (Business, Data, etc.)"
+        },
+        {
+            "id": 4,
+            "name": "Developer (Web, Software, Mobile)"
+        }
+    ],
+    "user_preference": {
+        "id": 2,
+        "fine_tune_description": "None",
+        "modify_post_cta": "None"
+    }
+}

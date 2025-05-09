@@ -1,0 +1,50 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# macOS files
+.DS_Store
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# Migrations (optional, for Django or Flask)
+*/migrations/__pycache__/
+*/migrations/*.py[cod]
+
+# Test outputs
+.coverage
+htmlcov/
+*.cover
+.cache/
+.pytest_cache/
+
+# Compiled C files
+*.so
+
+# Node stuff (if using frontend too)
+node_modules/
+dist/
+build/
