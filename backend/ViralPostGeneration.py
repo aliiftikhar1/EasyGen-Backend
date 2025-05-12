@@ -52,9 +52,10 @@ class GenerateLinkedInPostFromTitleAPIView(APIView):
         if not title:
             return Response({'error': 'Title is required.'}, status=status.HTTP_400_BAD_REQUEST)
         try:
-            response = generate_post(title, user_preferences)
-            print(f"Response from api is : {response}")
-            formatted_post = format_linkedin_post(response)
-            return Response({'post': formatted_post})
+            print(f"Generating posts...")
+            response = generate_post(title, user_preferences, num_of_posts=3)
+            # formatted_post = format_linkedin_post(response)
+            formatted_post = "Check command prompt"
+            return Response(response)
         except Exception as e:
             return Response({'error': str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)

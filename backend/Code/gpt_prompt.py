@@ -1,44 +1,54 @@
-# gpt_prompt.py
-
-
-def system_prompt(linkedin_link):
+def system_prompt(k):
     return f"""
-You are an AI assistant analyzing the writing patterns of a LinkedIn influencer.
+You are a professional LinkedIn post generator.
 
-CONTEXT: LinkedIn profile at {linkedin_link}
-LIMITS: Focus only on public post content; ignore comments or reactions
-ACTION: Break down the person’s typical post structure, including:
-  - Section division and spacing
-  - Word selection and tone
-  - Common writing styles and techniques
-RESULT: A concise breakdown of the post anatomy to inform style replication
+You will receive:
+- A topic the user wants to post about
+- {k} LinkedIn post templates (each with a purpose and structural format)
+- The user's preferences (industry, role, tone, writing style, goals, etc.)
+
+Your task:
+- Generate {k} original LinkedIn posts, one for each structure provided
+- Use the structure to shape the post naturally (modifications are allowed if needed)
+- Ensure each post aligns with the user's preferences in tone and style
+- Make it sound authentic and human — not robotic or templated
+
+Formatting rules:
+- Do NOT mention template names or structure metadata
+- Do NOT include variables like {{x}}, {{tip_1}}, etc.
+- Use clean, short paragraphs formatted for LinkedIn
+- Add a soft CTA if it fits the flow
+- Use emojis only if they add meaning (1–2 max)
 """
 
 
+def generate_prompt(topic, templates, prefs, k):
+    prompt = f"""The user wants to generate LinkedIn posts about the topic: "{topic}"
 
-def generate_prompt(topic, prefs):
-    return f"""
-You are a viral LinkedIn post generator.
+Here are their content preferences:
+- Content types: {", ".join(prefs['content_types'])}
+- Posting goals: {", ".join(prefs['posting_goals'])}
+- Industries: {", ".join(prefs['industries'])}
+- Roles: {", ".join(prefs['job_descriptions'])}
+- Writing style: {", ".join(prefs['writing_styles'])}
+- Tone adjustment: {prefs['fine_tune_description']}
+- CTA adjustment: {prefs['modify_post_cta']}
 
-ROLE: Expert LinkedIn influencer and copywriter  
-AIM: Write a compelling post about "{topic}" that aligns with the user's goals  
-INPUT: User preferences:
-  - Content types: {", ".join(prefs['content_types'])}
-  - Posting goals: {", ".join(prefs['posting_goals'])}
-  - Industries: {", ".join(prefs['industries'])}
-  - Roles: {", ".join(prefs['job_descriptions'])}
-  - Style: {", ".join(prefs['writing_styles'])}
-  - Fine-tune tone: {prefs['fine_tune_description']}
-  - CTA adjustment: {prefs['modify_post_cta']}
-
-NUMERIC TARGET: Drive 2× engagement over typical posts (likes, saves, shares)  
-FORMAT: Write a plain, ready-to-publish LinkedIn post — no headings, no markdown, no sections labeled as "Introduction", "Body", "CTA", etc.  
-Keep paragraphs short and spacing clean for LinkedIn formatting.
-
-FUNCTION: Copywriting assistant for social media influence  
-LEVEL: Professionals on LinkedIn (mid to senior roles)  
-OUTPUT: Scroll-stopping, story-driven post with a soft CTA  
-STYLE RULE: Use emojis only when they add real value to the message (1–2 max). Avoid decorative or excessive emoji use.
-
-WIN METRIC: Authenticity, clarity, and alignment with reader intent
+Below are {k} LinkedIn post structures you should use to write the posts.
+Use them only as guidance — modify where necessary to fit the topic and sound natural.
 """
+
+    for i, template in enumerate(templates, start=1):
+        prompt += f"\n---\nStructure {i}:\n{template['template_text']}\n"
+
+    prompt += f"""
+
+Your task is to generate {k} distinct LinkedIn posts, each based on one structure.
+
+Important:
+- Do NOT include placeholder variables like {{x}}, {{tip_1}}, etc.
+- Do NOT reference templates or structure numbers
+- Write each post as if it's ready to publish
+- Make sure the writing feels human, helpful, and well-formatted for LinkedIn
+"""
+    return prompt

@@ -1,0 +1,938 @@
+[
+  {
+    "id": 1,
+    "template_name": "Mindset Shift",
+    "purpose": "Help users reflect on a personal transformation through mindset.",
+    "fields": [
+      "x",
+      "initial_focus_1",
+      "initial_focus_2",
+      "initial_focus_3",
+      "new_focus_1",
+      "new_focus_2",
+      "new_focus_3",
+      "new_focus_4"
+    ],
+    "template_text": "This 1 mindset shift changed everything for me as an {x}.\n\nWhen I started my {x}, I focused on:\n\n- {initial_focus_1}\n- {initial_focus_2}\n- {initial_focus_3}\n\nI did this for 5-6 months when I started, and I was burned out. It was mentally draining.\n\nNot because I wasn\u2019t working hard.\nIt was because I was doing so many things, and they all were very different.\n\nThe best way is to focus on 1 thing at a time and give your best.\nI was focusing on the wrong things.\n\nNow, I am focusing on:\n\n- {new_focus_1}\n- {new_focus_2}\n- {new_focus_3}\n- {new_focus_4}\n\nI shifted from \u201cI should do this too because all the other {x} are doing this\u201d to \u201cIs this valuable to my audience, and is this something that\u2019s making an impact?\u201d.\n\nThe moment you focus on the impact, not vanity metrics, it will all come together."
+  },
+  {
+    "id": 2,
+    "template_name": "Achievement vs Challenge",
+    "purpose": "Contrast numerical achievement with an emotional or skill challenge.",
+    "fields": [
+      "achievement",
+      "x",
+      "had_1",
+      "had_2",
+      "had_3",
+      "had_4",
+      "why_best_part",
+      "passion",
+      "did_1",
+      "did_2",
+      "did_3",
+      "did_4",
+      "did_5",
+      "understood_1",
+      "understood_2",
+      "understood_3"
+    ],
+    "template_text": "I\u2019ve got {achievement}, but {x} was the hardest.\n\nWhen I started {x}, I had:\n1. {had_1}\n2. {had_2}\n3. {had_3}\n4. {had_4}\n\nAnd that was the best part.\n\n{why_best_part}\n\nBut one thing I had was my love and passion for {passion}\n\nHere\u2019s what I did:\n1. {did_1}\n2. {did_2}\n3. {did_3}\n4. {did_4}\n5. {did_5}\n\nOne thing I have understood is:\n1. {understood_1}\n2. {understood_2}\n3. {understood_3}\n\nThat\u2019s it."
+  },
+  {
+    "id": 3,
+    "template_name": "Beyond the Metrics",
+    "purpose": "Redefine what {x} means by emphasizing soft skills and impact.",
+    "fields": [
+      "x",
+      "soft_skill_1",
+      "soft_skill_2",
+      "soft_skill_3",
+      "soft_skill_4",
+      "testimonial",
+      "vanity_1",
+      "vanity_2",
+      "vanity_3",
+      "vanity_4",
+      "real_impact"
+    ],
+    "template_text": "{x} is not just about {x} and {x}.\n\nIt\u2019s about:\n- {soft_skill_1}\n- {soft_skill_2}\n- {soft_skill_3}\n- {soft_skill_4}\n\nWhen I started {x}, it was about sharing what I was learning.\n\nIt\u2019s also about transforming myself into a more disciplined person and following good habits.\n\n{testimonial}\n\nFor me, this is what {x} is.\n\nNot {vanity_1}\nNot {vanity_2}\nNot {vanity_3}\nNot {vanity_4}\n\nBut that {real_impact}.\n\nWhen people start recognizing you for your {x} \u2013 this is {x}."
+  },
+  {
+    "id": 4,
+    "template_name": "Year in Review",
+    "purpose": "Recap highlights from a milestone {x}.",
+    "fields": [
+      "time",
+      "X",
+      "x",
+      "highlight_1",
+      "highlight_2",
+      "highlight_3",
+      "highlight_4",
+      "highlight_5",
+      "highlight_6",
+      "highlight_7"
+    ],
+    "template_text": "Exactly {time} ago, I started {X}. So, here's my {x} wrapped:\n\n> {highlight_1}\n> {highlight_2}\n> {highlight_3}\n> {highlight_4}\n> {highlight_5}\n> {highlight_6}\n> {highlight_7}\n\nI am sure I am missing out on a few things, but these were the key highlights.\n\n{x} will always be special.\n\nCan't wait to see what {X} has in store."
+  },
+  {
+    "id": 5,
+    "template_name": "Growth Story",
+    "purpose": "Share a transformation journey over time.",
+    "fields": [
+      "x1",
+      "X",
+      "x2",
+      "x3",
+      "X2",
+      "previous",
+      "mistake",
+      "doing_now",
+      "thing_1",
+      "explain_1",
+      "thing_2",
+      "explain_2",
+      "thing_3",
+      "explain_3",
+      "thing_4",
+      "explain_4",
+      "thing_5",
+      "explain_5"
+    ],
+    "template_text": "I went from {x1} to {X} in a year but grew from {x2} to {x3} in less than {X2}.\n\nHow?\n\nI changed my {x1}.\n\nIf you look at my {previous} ago, {mistake}. {doing_now}\n\nHere\u2019s what I do broadly:\n\n1. {thing_1}\n{explain_1}\n\n2. {thing_2}\n{explain_2}\n\n3. {thing_3}\n{explain_3}\n\n4. {thing_4}\n{explain_4}\n\n5. {thing_5}\n{explain_5}"
+  },
+  {
+    "id": 6,
+    "template_name": "Masterclass Advice",
+    "purpose": "Teach readers how to stand out using practical advice.",
+    "fields": [
+      "X",
+      "outcome",
+      "advice_1",
+      "desc_1",
+      "how_1_1",
+      "how_1_2",
+      "how_1_3",
+      "advice_2",
+      "desc_2",
+      "how_2_1",
+      "how_2_2",
+      "how_2_3",
+      "advice_3",
+      "desc_3",
+      "how_3_1",
+      "how_3_2",
+      "how_3_3",
+      "advice_4",
+      "desc_4",
+      "how_4_1",
+      "how_4_2",
+      "how_4_3",
+      "advice_5",
+      "desc_5",
+      "how_5_1",
+      "how_5_2",
+      "how_5_3"
+    ],
+    "template_text": "I agree \u201c{X}\u201d is important, but it\u2019s not everything.\n\nHere is the mini masterclass of standing out on {X} and {outcome}:\n\n1. {advice_1}\n{desc_1}\nHow to do it:\n- {how_1_1}\n- {how_1_2}\n- {how_1_3}\n\n2. {advice_2}\n{desc_2}\nHow to do it:\n- {how_2_1}\n- {how_2_2}\n- {how_2_3}\n\n3. {advice_3}\n{desc_3}\nHow to do it:\n- {how_3_1}\n- {how_3_2}\n- {how_3_3}\n\n4. {advice_4}\n{desc_4}\nHow to do it:\n- {how_4_1}\n- {how_4_2}\n- {how_4_3}\n\n5. {advice_5}\n{desc_5}\nHow to do it:\n- {how_5_1}\n- {how_5_2}\n- {how_5_3}\n\nWhich one is your favorite?"
+  },
+  {
+    "id": 7,
+    "template_name": "20 Ways Listicle",
+    "purpose": "Deliver quick, actionable tips around a specific topic.",
+    "fields": [
+      "tip_1",
+      "tip_2",
+      "tip_3",
+      "tip_4",
+      "tip_5",
+      "tip_6",
+      "tip_7",
+      "tip_8",
+      "tip_9",
+      "tip_10",
+      "tip_11",
+      "tip_12",
+      "tip_13",
+      "tip_14",
+      "tip_15",
+      "tip_16",
+      "tip_17",
+      "tip_18",
+      "tip_19",
+      "tip_20",
+      "description_1",
+      "description_2",
+      "description_3",
+      "description_4",
+      "description_5",
+      "description_6",
+      "description_7",
+      "description_8",
+      "description_9",
+      "description_10",
+      "description_11",
+      "description_12",
+      "description_13",
+      "description_14",
+      "description_15",
+      "description_16",
+      "description_17",
+      "description_18",
+      "description_19",
+      "description_20"
+    ],
+    "template_text": "20 ways to {X}\n\n{tip_1} \u2192 {description_1}\n\n{tip_2} \u2192 {description_2}\n\n{tip_3} \u2192 {description_3}\n\n{tip_4} \u2192 {description_4}\n\n{tip_5} \u2192 {description_5}\n\n{tip_6} \u2192 {description_6}\n\n{tip_7} \u2192 {description_7}\n\n{tip_8} \u2192 {description_8}\n\n{tip_9} \u2192 {description_9}\n\n{tip_10} \u2192 {description_10}\n\n{tip_11} \u2192 {description_11}\n\n{tip_12} \u2192 {description_12}\n\n{tip_13} \u2192 {description_13}\n\n{tip_14} \u2192 {description_14}\n\n{tip_15} \u2192 {description_15}\n\n{tip_16} \u2192 {description_16}\n\n{tip_17} \u2192 {description_17}\n\n{tip_18} \u2192 {description_18}\n\n{tip_19} \u2192 {description_19}\n\n{tip_20} \u2192 {description_20}"
+  },
+  {
+    "id": 8,
+    "template_name": "Think Shift",
+    "purpose": "Encourage reframing thinking from lagging to leading metrics.",
+    "fields": [
+      "lag_1",
+      "lag_2",
+      "lag_3",
+      "lag_4",
+      "lead_1",
+      "lead_2",
+      "lead_3",
+      "lead_4",
+      "zinger"
+    ],
+    "template_text": "Think less about:\n{lag_1}\n{lag_2}\n{lag_3}\n{lag_4}\n\nThink more about:\n{lead_1}\n{lead_2}\n{lead_3}\n{lead_4}\n\n{zinger}"
+  },
+  {
+    "id": 9,
+    "template_name": "Milestone Lessons",
+    "purpose": "Reflect on long-term lessons from experience in {x}.",
+    "fields": [
+      "x",
+      "lesson_count"
+    ],
+    "template_text": "{x} lessons I've learned in {x} years of my {x} journey.\n\nI'm excited to share that I've completed {x} years.\nIt's been an extraordinary ride filled with ups and downs, but I'm grateful for every experience that has shaped me along the way.\n\nHere are {lesson_count} lessons:\n\nThank you all for your continuous support and encouragement.\nHere's to even more exciting adventures ahead!"
+  },
+  {
+    "id": 10,
+    "template_name": "Pro Tip Share",
+    "purpose": "Deliver one quick tip from experience and its outcome.",
+    "fields": [
+      "industry",
+      "tip",
+      "explanation",
+      "outcome",
+      "x"
+    ],
+    "template_text": "\ud83d\udca1 Sharing a pro tip today!\n\n\ud83c\udf1f One thing I've learned from my experience in {industry} is {tip}.\n\n{explanation}\n\nThis simple yet effective strategy has helped me {outcome}.\n\nGive it a try, and let me know how it works for you!\n\nRemember, success lies in {x}. \ud83d\udcaa"
+  },
+  {
+    "id": 11,
+    "template_name": "Topic Tips",
+    "purpose": "Provide a concise list of unelaborated tips for a specific topic or skill.",
+    "fields": [
+      "topic",
+      "tip_1",
+      "tip_2",
+      "tip_3",
+      "tip_4",
+      "tip_5",
+      "tip_6",
+      "tip_7",
+      "tip_8",
+      "tip_9",
+      "tip_10",
+      "zinger"
+    ],
+    "template_text": "[{topic}] Tips:\n\n1. {tip_1} {do not explain}\n2. {tip_2} {do not explain}\n3. {tip_3} {do not explain}\n4. {tip_4} {do not explain}\n5. {tip_5} {do not explain}\n6. {tip_6} {do not explain}\n7. {tip_7} {do not explain}\n8. {tip_8} {do not explain}\n9. {tip_9} {do not explain}\n10. {tip_10} {do not explain}\n\n{zinger}"
+  },
+  {
+    "id": 12,
+    "template_name": "Debunking Myths",
+    "purpose": "Debunk common misconceptions around a topic.",
+    "fields": [
+      "topic",
+      "myth_1",
+      "myth_2",
+      "myth_3",
+      "myth_4",
+      "myth_5",
+      "myth_6",
+      "myth_7"
+    ],
+    "template_text": "\ud83e\udd14 Think you know all there is to know about {topic}?\n\nThink again! \ud83c\udf1f\n\nToday, I'm here to debunk common myths about {topic}.\n\n\u26cc {myth_1}\n\u26cc {myth_2}\n\u26cc {myth_3}\n\u26cc {myth_4}\n\u26cc {myth_5}\n\u26cc {myth_6}\n\u26cc {myth_7}\n\nDon't fall for misleading information - let's spread the truth together!"
+  },
+  {
+    "id": 13,
+    "template_name": "What You Need to Start",
+    "purpose": "Contrast perceived requirements with actual skills needed to start something.",
+    "fields": [
+      "hook",
+      "myth_1",
+      "myth_2",
+      "myth_3",
+      "myth_4",
+      "skill_1",
+      "skill_2",
+      "skill_3",
+      "skill_4"
+    ],
+    "template_text": "{hook}\n\nWhat do you think you need to start a {x}?\n\n* {myth_1}\n* {myth_2}\n* {myth_3}\n* {myth_4}\n\nWhat you actually need to start is:\n\n* {skill_1}\n* {skill_2}\n* {skill_3}\n* {skill_4}\n\nThat\u2019s it! Nothing else.\n\nThings are way easier than you think."
+  },
+  {
+    "id": 14,
+    "template_name": "Tools for Success",
+    "purpose": "Provide a tool recommendation list to achieve a goal.",
+    "fields": [
+      "goal",
+      "tool_1",
+      "tool_2",
+      "tool_3",
+      "tool_4"
+    ],
+    "template_text": "Ready to achieve {goal}? \ud83d\ude80\n\nI've compiled a list of the top tools that will help you get there faster.\n\nThese tools are designed to streamline your journey to success, from automation to collaboration.\n\nLet\u2019s explore the list:\n\n1. {tool_1}\n2. {tool_2}\n3. {tool_3}\n4. {tool_4}\n\nShare your experiences or recommend other tools for the {goal}!"
+  },
+  {
+    "id": 15,
+    "template_name": "Hidden Platform Features",
+    "purpose": "List hidden features of a platform and their benefits.",
+    "fields": [
+      "Platform",
+      "long_time",
+      "actions",
+      "outcome",
+      "feature_1",
+      "feature_2",
+      "feature_3",
+      "feature_4",
+      "feature_5",
+      "description_1",
+      "description_2",
+      "description_3",
+      "description_4",
+      "description_5"
+    ],
+    "template_text": "I am an expert at using {Platform}.\n\nUnfortunately, I wasted a {long_time} because I was using the wrong {actions}.\n\n5 hidden {Platform} features guaranteed to {outcome}:\n\n1. {feature_1}\n- {description_1}\n2. {feature_2}\n- {description_2}\n3. {feature_3}\n- {description_3}\n4. {feature_4}\n- {description_4}\n5. {feature_5}\n- {description_5}"
+  },
+  {
+    "id": 16,
+    "template_name": "Must-Have Tools",
+    "purpose": "Suggest must-have tools to enhance a specific task.",
+    "fields": [
+      "scroll_hook",
+      "task",
+      "industry",
+      "tool_1",
+      "tool_2",
+      "tool_3",
+      "tool_4",
+      "tool_5"
+    ],
+    "template_text": "{scroll_hook}\n\nEnhance your {task} game with these must-have tools:\n\n1. {tool_1}\n2. {tool_2}\n3. {tool_3}\n4. {tool_4}\n5. {tool_5}\n\nThis curated list will advance your {industry}."
+  },
+  {
+    "id": 17,
+    "template_name": "Step-by-Step Guide",
+    "purpose": "Guide the reader through a multi-step how-to based on a topic.",
+    "fields": [
+      "topic",
+      "credibility",
+      "area",
+      "step_1",
+      "step_2",
+      "step_3",
+      "stepX",
+      "outcome"
+    ],
+    "template_text": "Today, I'm sharing a step-by-step guide to {topic}\n\n(after doing {credibility})\n\nFollow these simple yet effective steps to achieve success in {area}.\n\n- {step_1}\n- {step_2}\n- {step_3}\n\nFrom {step_1} to {stepX}, each stage is designed to help you {outcome}.\n\nTake action and watch your progress soar! \ud83d\udcaa"
+  },
+  {
+    "id": 18,
+    "template_name": "Dos and Don'ts",
+    "purpose": "Share best practices and common mistakes in a domain.",
+    "fields": [
+      "hook",
+      "topic",
+      "do_1",
+      "benefit_1",
+      "do_2",
+      "benefit_2",
+      "do_3",
+      "benefit_3",
+      "dont_1",
+      "bad_1",
+      "dont_2",
+      "bad_2",
+      "dont_3",
+      "bad_3",
+      "do_this",
+      "positive"
+    ],
+    "template_text": "{hook}\n\nHere are the dos and don'ts when it comes to {topic}.\n\nDos\n\u2705 {do_1} \u21b3 {benefit_1}\n\u2705 {do_2} \u21b3 {benefit_2}\n\u2705 {do_3} \u21b3 {benefit_3}\n\nDon'ts\n\u274c {dont_1} \u21b3 {bad_1}\n\u274c {dont_2} \u21b3 {bad_2}\n\u274c {dont_3} \u21b3 {bad_3}\n\n{do_this} because {positive}\n\nShare your own dos and don'ts in the comments below!"
+  },
+  {
+    "id": 19,
+    "template_name": "Repeatable Framework",
+    "purpose": "Describe a proven repeatable technique or set of techniques.",
+    "fields": [
+      "X",
+      "credibility",
+      "tech_count",
+      "tech_1",
+      "tech_2",
+      "tech_3",
+      "step_1_1",
+      "step_1_2",
+      "step_1_3",
+      "step_2_1",
+      "step_2_2",
+      "step_2_3",
+      "step_3_1",
+      "step_3_2",
+      "step_3_3",
+      "outcome_1",
+      "outcome_2",
+      "outcome_3"
+    ],
+    "template_text": "Over the past {X} years, I have {credibility}.\n\nAnd I use the same {tech_count} technique every time:\n\n1: {tech_1}\n\nHow it works:\n\u2192 {step_1_1}\n\u2192 {step_1_2}\n\u2192 {step_1_3}\n\nThis simple {{tech_{i+1}}} allows you to achieve {{outcome_{i+1}}}.\n\n2: {tech_2}\n\nHow it works:\n\u2192 {step_2_1}\n\u2192 {step_2_2}\n\u2192 {step_2_3}\n\nThis simple {{tech_{i+1}}} allows you to achieve {{outcome_{i+1}}}.\n\n3: {tech_3}\n\nHow it works:\n\u2192 {step_3_1}\n\u2192 {step_3_2}\n\u2192 {step_3_3}\n\nThis simple {{tech_{i+1}}} allows you to achieve {{outcome_{i+1}}}.\n\nDo these 3 things, and you'll be wildly successful."
+  },
+  {
+    "id": 20,
+    "template_name": "Career Mistakes",
+    "purpose": "List career mistakes and the better alternative actions.",
+    "fields": [
+      "X",
+      "mistake_1",
+      "mistake_2",
+      "mistake_3",
+      "mistake_4",
+      "role_1",
+      "role_2",
+      "role_3",
+      "role_4",
+      "wrong_1",
+      "wrong_2",
+      "wrong_3",
+      "wrong_4",
+      "right_1",
+      "right_2",
+      "right_3",
+      "right_4",
+      "quote"
+    ],
+    "template_text": "The result: {X} profound mistakes everyone (from interns to executives) should avoid in their career.\n\nLet\u2019s dive in:\n\nMistake 1: {mistake_1}\n\nToo often, {{role_{i+1}}} chooses to {{wrong_{i+1}}}.\nInstead, {{role_{i+1}}} should be focused on {{right_{i+1}}}.\n\nMistake 2: {mistake_2}\n\nToo often, {{role_{i+1}}} chooses to {{wrong_{i+1}}}.\nInstead, {{role_{i+1}}} should be focused on {{right_{i+1}}}.\n\nMistake 3: {mistake_3}\n\nToo often, {{role_{i+1}}} chooses to {{wrong_{i+1}}}.\nInstead, {{role_{i+1}}} should be focused on {{right_{i+1}}}.\n\nMistake 4: {mistake_4}\n\nToo often, {{role_{i+1}}} chooses to {{wrong_{i+1}}}.\nInstead, {{role_{i+1}}} should be focused on {{right_{i+1}}}.\n\n{quote}"
+  },
+  {
+    "id": 21,
+    "template_name": "Top X Tools",
+    "purpose": "List top tools that help achieve a specific goal.",
+    "fields": [
+      "goal",
+      "tool_1",
+      "tool_2",
+      "tool_3",
+      "tool_4"
+    ],
+    "template_text": "Ready to achieve {goal}? \ud83d\ude80\n\nI've compiled a list of the top tools that will help you get there faster.\n\nThese tools are designed to streamline your journey to success, from automation to collaboration.\n\nLet\u2019s explore the list:\n1. {tool_1}\n2. {tool_2}\n3. {tool_3}\n4. {tool_4}\n\nShare your experiences or recommend other tools for the {goal}!"
+  },
+  {
+    "id": 22,
+    "template_name": "Step-by-Step How-To",
+    "purpose": "Explain how to accomplish a task using a step-by-step format.",
+    "fields": [
+      "task",
+      "credibility",
+      "expertise",
+      "step_1",
+      "step_2",
+      "step_3",
+      "stepX",
+      "outcome"
+    ],
+    "template_text": "Today, I'm sharing a step-by-step guide to {task}\n\n(after doing {credibility})\n\nFollow these simple yet effective steps to achieve success in {expertise}:\n- {step_1}\n- {step_2}\n- {step_3}\n\nFrom {step_1} to {stepX}, each stage is designed to help you {outcome}.\n\nTake action and watch your progress soar! \ud83d\udcaa"
+  },
+  {
+    "id": 23,
+    "template_name": "Dos and Don\u2019ts",
+    "purpose": "Educate audience on best practices and mistakes to avoid.",
+    "fields": [
+      "topic",
+      "do_1",
+      "benefit_1",
+      "do_2",
+      "benefit_2",
+      "do_3",
+      "benefit_3",
+      "dont_1",
+      "bad_1",
+      "dont_2",
+      "bad_2",
+      "dont_3",
+      "bad_3",
+      "do_this",
+      "positive"
+    ],
+    "template_text": "Here are the dos and don'ts when it comes to {topic}.\n\nDos\n\u2705 {do_1}\n\u21b3 {benefit_1}\n\u2705 {do_2}\n\u21b3 {benefit_2}\n\u2705 {do_3}\n\u21b3 {benefit_3}\n\nDon't\n\u274c {dont_1}\n\u21b3 {bad_1}\n\u274c {dont_2}\n\u21b3 {bad_2}\n\u274c {dont_3}\n\u21b3 {bad_3}\n\n{do_this} because {positive}\n\nShare your own dos and don'ts in the comments below!"
+  },
+  {
+    "id": 24,
+    "template_name": "3 Framework Techniques",
+    "purpose": "Break down three techniques and how they work step-by-step.",
+    "fields": [
+      "X",
+      "credibility",
+      "tech_count",
+      "tech_1",
+      "step_1a",
+      "step_1b",
+      "step_1c",
+      "outcome_1",
+      "tech_2",
+      "step_2a",
+      "step_2b",
+      "step_2c",
+      "outcome_2",
+      "tech_3",
+      "step_3a",
+      "step_3b",
+      "step_3c",
+      "outcome_3"
+    ],
+    "template_text": "Over the past {X} years, I have {credibility}.\n\nAnd I use the same {tech_count} technique every time:\n\n1: {tech_1}\nHow it works:\n\u2192 {step_1a}\n\u2192 {step_1b}\n\u2192 {step_1c}\nThis simple {tech_1} allows you to achieve {outcome_1}.\n\n2: {tech_2}\nHow it works:\n\u2192 {step_2a}\n\u2192 {step_2b}\n\u2192 {step_2c}\nThis simple {tech_2} allows you to achieve {outcome_2}.\n\n3: {tech_3}\nHow it works:\n\u2192 {step_3a}\n\u2192 {step_3b}\n\u2192 {step_3c}\nThis simple {tech_3} allows you to achieve {outcome_3}.\n\nDo these 3 things, and you'll be wildly successful."
+  },
+  {
+    "id": 25,
+    "template_name": "Career Mistakes to Avoid",
+    "purpose": "Reveal mistakes professionals should avoid and how to correct them.",
+    "fields": [
+      "X",
+      "mistake_1",
+      "role_1",
+      "wrong_1",
+      "right_1",
+      "mistake_2",
+      "role_2",
+      "good_2",
+      "bad_2",
+      "legendary_2",
+      "mistake_3",
+      "milestone_3",
+      "quote_3",
+      "mistake_4",
+      "wisdom_4",
+      "right_4a",
+      "right_4b"
+    ],
+    "template_text": "The result: {X} profound mistakes everyone (from interns to executives) should avoid in their career.\n\nLet\u2019s dive in:\n\nMistake 1: {mistake_1}\nToo often, {role_1} chooses to {wrong_1}. Instead, they should focus on {right_1}.\n\nMistake 2: {mistake_2}\nA good {role_2} can {good_2}. A bad {role_2} can {bad_2}. But a legendary {role_2} can {legendary_2}.\n\nMistake 3: {mistake_3}\nUntil you\u2019ve {milestone_3}, don\u2019t take your eye off the ball.\n\"{quote_3}\"\n\nMistake 4: {mistake_4}\nTraditional wisdom says {wisdom_4}. But that\u2019s only true if you do two things:\n- {right_4a}\n- {right_4b}\n\nThen, {wisdom_4} works great."
+  },
+  {
+    "id": 26,
+    "template_name": "Journey Lessons",
+    "purpose": "Share personal lessons learned over the course of a career or project.",
+    "fields": [
+      "topic",
+      "lesson_1",
+      "lesson_2",
+      "lesson_3",
+      "lesson_4",
+      "lesson_5",
+      "takeaway_message"
+    ],
+    "template_text": "Here\u2019s what those difficult years taught me about {topic}:\n\nLesson 1: {lesson_1}\nLesson 2: {lesson_2}\nLesson 3: {lesson_3}\nLesson 4: {lesson_4}\nLesson 5: {lesson_5}\n\nTakeaway: {takeaway_message}"
+  },
+  {
+    "id": 27,
+    "template_name": "The Old vs. New Way",
+    "purpose": "Compare the old approach versus a newer, more efficient way.",
+    "fields": [
+      "topic",
+      "old_way_1",
+      "old_way_2",
+      "old_way_3",
+      "new_way_1",
+      "new_way_2",
+      "new_way_3",
+      "shift"
+    ],
+    "template_text": "The old way vs. the new way of {topic}:\n\nOld way:\n- {old_way_1}\n- {old_way_2}\n- {old_way_3}\n\nNew way:\n- {new_way_1}\n- {new_way_2}\n- {new_way_3}\n\nThe shift?\n{shift}"
+  },
+  {
+    "id": 28,
+    "template_name": "5 Key Mistakes",
+    "purpose": "Warn against common mistakes and their corrections.",
+    "fields": [
+      "mistake_1",
+      "fix_1",
+      "mistake_2",
+      "fix_2",
+      "mistake_3",
+      "fix_3",
+      "mistake_4",
+      "fix_4",
+      "mistake_5",
+      "fix_5"
+    ],
+    "template_text": "Most people suck at {topic}. But if you avoid these 5 common mistakes, I guarantee you won\u2019t:\n\nMistake 1: {mistake_1}\nFix: {fix_1}\n\nMistake 2: {mistake_2}\nFix: {fix_2}\n\nMistake 3: {mistake_3}\nFix: {fix_3}\n\nMistake 4: {mistake_4}\nFix: {fix_4}\n\nMistake 5: {mistake_5}\nFix: {fix_5}\n\n{takeaway_message}"
+  },
+  {
+    "id": 29,
+    "template_name": "Things to Stop and Start",
+    "purpose": "Give advice on what to stop doing and what to start doing.",
+    "fields": [
+      "topic",
+      "stop_1",
+      "stop_2",
+      "stop_3",
+      "start_1",
+      "start_2",
+      "start_3",
+      "motivation"
+    ],
+    "template_text": "Stop {doing_thing_that_doesnt_help}.\n\nIt\u2019s time to {do_thing}.\n\nHere\u2019s what you don\u2019t need:\n1. {stop_1}\n2. {stop_2}\n3. {stop_3}\n\nHere\u2019s what you do need:\n1. {start_1}\n2. {start_2}\n3. {start_3}\n\n{motivation}"
+  },
+  {
+    "id": 30,
+    "template_name": "Growth Journey",
+    "purpose": "Explain how growth happened over time and share key lessons.",
+    "fields": [
+      "X",
+      "years_ago",
+      "milestone",
+      "lesson_1",
+      "lesson_2",
+      "lesson_3",
+      "lesson_4",
+      "lesson_5",
+      "takeaway_message"
+    ],
+    "template_text": "{X} years ago, I had {milestone}.\n\nHere's what those difficult years taught me:\n\nLesson 1: {lesson_1}\nLesson 2: {lesson_2}\nLesson 3: {lesson_3}\nLesson 4: {lesson_4}\nLesson 5: {lesson_5}\n\nTakeaway: {takeaway_message}"
+  },
+  {
+    "id": 31,
+    "template_name": "5 Tips for {X}",
+    "purpose": "Share actionable tips in a structured list.",
+    "fields": [
+      "X",
+      "tip_1",
+      "tip_2",
+      "tip_3",
+      "tip_4",
+      "tip_5"
+    ],
+    "template_text": "Here are my 5 tips for {X}:\n\n1. {tip_1}\n2. {tip_2}\n3. {tip_3}\n4. {tip_4}\n5. {tip_5}\n\nI hope these help you on your journey!"
+  },
+  {
+    "id": 32,
+    "template_name": "How I Transformed",
+    "purpose": "Detail how transformation occurred over time, based on real experience.",
+    "fields": [
+      "X",
+      "old_state",
+      "new_state",
+      "key_steps",
+      "challenges"
+    ],
+    "template_text": "I went from {old_state} to {new_state} in {X} months.\n\nHere are the key steps I took:\n\n{key_steps}\n\nBut there were challenges along the way:\n{challenges}"
+  },
+  {
+    "id": 33,
+    "template_name": "The Real Truth About {X}",
+    "purpose": "Bust myths and reveal the truth about a specific topic.",
+    "fields": [
+      "X",
+      "myth_1",
+      "truth_1",
+      "myth_2",
+      "truth_2",
+      "myth_3",
+      "truth_3"
+    ],
+    "template_text": "The real truth about {X}:\n\nMyth 1: {myth_1}\nTruth: {truth_1}\n\nMyth 2: {myth_2}\nTruth: {truth_2}\n\nMyth 3: {myth_3}\nTruth: {truth_3}\n\nLet\u2019s stop spreading misinformation and spread the truth!"
+  },
+  {
+    "id": 34,
+    "template_name": "Why {X} is Essential",
+    "purpose": "Explain why a topic or method is essential for success.",
+    "fields": [
+      "X",
+      "reason_1",
+      "reason_2",
+      "reason_3",
+      "action_step"
+    ],
+    "template_text": "Why {X} is essential:\n\n1. {reason_1}\n2. {reason_2}\n3. {reason_3}\n\nTo succeed, start by taking this action: {action_step}"
+  },
+  {
+    "id": 35,
+    "template_name": "My Biggest Mistakes",
+    "purpose": "Share personal mistakes and lessons learned.",
+    "fields": [
+      "X",
+      "mistake_1",
+      "mistake_2",
+      "mistake_3",
+      "lesson_1",
+      "lesson_2",
+      "lesson_3"
+    ],
+    "template_text": "My biggest mistakes in {X}:\n\nMistake 1: {mistake_1}\nMistake 2: {mistake_2}\nMistake 3: {mistake_3}\n\nHere are the lessons I learned:\n\nLesson 1: {lesson_1}\nLesson 2: {lesson_2}\nLesson 3: {lesson_3}"
+  },
+  {
+    "id": 36,
+    "template_name": "You vs. You (Old vs. New)",
+    "purpose": "Compare outdated methods with new efficient approaches.",
+    "fields": [
+      "Topic",
+      "OldWay1",
+      "OldWay2",
+      "OldWay3",
+      "OldWay4",
+      "NewWay1",
+      "NewWay2",
+      "NewWay3",
+      "NewWay4",
+      "New",
+      "Old",
+      "CTA"
+    ],
+    "template_text": "The old way vs. the new way of {Topic}\n\nOld way\n\u2022 {OldWay1}\n\u2022 {OldWay2}\n\u2022 {OldWay3}\n\u2022 {OldWay4}\n\nNew Way\n\u2022 {NewWay1}\n\u2022 {NewWay2}\n\u2022 {NewWay3}\n\u2022 {NewWay4}\n\nThe shift?\n{New} > {Old}\n\n{CTA}"
+  },
+  {
+    "id": 37,
+    "template_name": "X is HARD",
+    "purpose": "Challenge the notion that a topic is difficult by showing simplicity.",
+    "fields": [
+      "topic",
+      "myth_1",
+      "myth_2",
+      "myth_3",
+      "reality_1",
+      "reality_2",
+      "reality_3",
+      "quote"
+    ],
+    "template_text": "{topic} is HARD\n\nYou are expected to:\n- {myth_1}\n- {myth_2}\n- {myth_3}\n\nBut it\u2019s (actually) really simple:\n- {reality_1}\n- {reality_2}\n- {reality_3}\n\n{topic} isn\u2019t hard, but we\u2019ve been conditioned to think it is.\n\n{quote}"
+  },
+  {
+    "id": 38,
+    "template_name": "Daily Commitment",
+    "purpose": "Highlight outcomes of committing to a task over time.",
+    "fields": [
+      "Task",
+      "duration",
+      "relevant",
+      "Outcome1",
+      "Outcome2",
+      "Outcome3",
+      "Outcome4",
+      "Outcome5",
+      "TypeOfPerson"
+    ],
+    "template_text": "I committed to {Task} daily {duration} ago.\n\n(Without a {relevant} expertise)\n\n\u2192 {Outcome1}\n\u2192 {Outcome2}\n\u2192 {Outcome3}\n\u2192 {Outcome4}\n\u2192 {Outcome5}\n\nNot 100%, but what a wild journey.\n\nI'm convinced {Task} makes any {TypeOfPerson} better."
+  },
+  {
+    "id": 39,
+    "template_name": "13 Mini Lessons",
+    "purpose": "List a set of concise insights or strategies from doing something.",
+    "fields": [
+      "Lesson1",
+      "Lesson2",
+      "Lesson3",
+      "Lesson4",
+      "Lesson5",
+      "Lesson6",
+      "Lesson7",
+      "Lesson8",
+      "Lesson9",
+      "Lesson10",
+      "Lesson11",
+      "Lesson12",
+      "Lesson13",
+      "Tip1",
+      "Tip2",
+      "Tip3",
+      "Tip4",
+      "Tip5",
+      "Tip6",
+      "Tip7",
+      "Tip8",
+      "Tip9",
+      "Tip10",
+      "Tip11",
+      "Tip12",
+      "Tip13"
+    ],
+    "template_text": "I improved {X} by {Y} by doing {DidThisThingToday}\n\n(13 lessons to {DidThisThingToday})\n\n1. {Lesson1} \u2192 {Tip1}\n2. {Lesson2} \u2192 {Tip2}\n3. {Lesson3} \u2192 {Tip3}\n4. {Lesson4} \u2192 {Tip4}\n5. {Lesson5} \u2192 {Tip5}\n6. {Lesson6} \u2192 {Tip6}\n7. {Lesson7} \u2192 {Tip7}\n8. {Lesson8} \u2192 {Tip8}\n9. {Lesson9} \u2192 {Tip9}\n10. {Lesson10} \u2192 {Tip10}\n11. {Lesson11} \u2192 {Tip11}\n12. {Lesson12} \u2192 {Tip12}\n13. {Lesson13} \u2192 {Tip13}\n\nHope that's helpful."
+  },
+  {
+    "id": 40,
+    "template_name": "From Scratch Advice",
+    "purpose": "Offer guidance on what someone should do starting fresh.",
+    "fields": [
+      "DoingThing",
+      "Thing1",
+      "Thing2",
+      "Thing3",
+      "Thing4",
+      "benefit_1",
+      "benefit_2",
+      "benefit_3",
+      "benefit_4"
+    ],
+    "template_text": "What would I do if I were {DoingThing} from scratch?\n\nSomeone asked me. My answer:\n1. {Thing1}\n2. {Thing2}\n3. {Thing3}\n4. {Thing4}\n\nBetter {DoingThing}:\n\u21b3 {benefit_1}\n\u21b3 {benefit_2}\n\u21b3 {benefit_3}\n\u21b3 {benefit_4}\n\nHappy {DoingThing}!"
+  },
+  {
+    "id": 41,
+    "template_name": "Achievement Steps Recap",
+    "purpose": "Summarize steps taken to reach a recent achievement.",
+    "fields": [
+      "timeframe",
+      "NoteworthyAchievement",
+      "Step_1",
+      "Step_2",
+      "Step_3",
+      "Step_4",
+      "TakeawayMessage"
+    ],
+    "template_text": "Last {timeframe} I did {NoteworthyAchievement}\n\nHere are the steps of my journey:\n1. {Step_1}\n2. {Step_2}\n3. {Step_3}\n4. {Step_4}\n\n{TakeawayMessage}\n\n\"If I can do it, you can do it too.\""
+  },
+  {
+    "id": 42,
+    "template_name": "Stop Doing This",
+    "purpose": "Share a common mistake and what to do instead.",
+    "fields": [
+      "bad_1",
+      "bad_2",
+      "bad_3",
+      "bad_4",
+      "good_1",
+      "good_2",
+      "good_3",
+      "good_4",
+      "takeaway",
+      "question"
+    ],
+    "template_text": "Stop {bad_1}. It\u2019s time to {good_1}.\n\nHere\u2019s what you don\u2019t need:\n1. {bad_2}\n2. {bad_3}\n3. {bad_4}\n\nHere\u2019s what you do need:\n\u2192 {good_2}\n\u2192 {good_3}\n\u2192 {good_4}\n\nStop {bad_1}. Stop {bad_2}. Stop {bad_3}.\n\n{takeaway}\n\n{question}"
+  },
+  {
+    "id": 43,
+    "template_name": "Struggles and Advice",
+    "purpose": "Share early career struggles and how to overcome them.",
+    "fields": [
+      "struggle_1",
+      "struggle_2",
+      "struggle_3",
+      "struggle_4",
+      "struggle_5",
+      "advice_1",
+      "advice_2",
+      "advice_3",
+      "advice_4",
+      "advice_5",
+      "offer"
+    ],
+    "template_text": "My biggest struggles as a new professional were:\n1. {struggle_1}\n2. {struggle_2}\n3. {struggle_3}\n4. {struggle_4}\n5. {struggle_5}\n\nHere\u2019s my advice:\n1. {advice_1}\n2. {advice_2}\n3. {advice_3}\n4. {advice_4}\n5. {advice_5}\n\n{offer}"
+  },
+  {
+    "id": 44,
+    "template_name": "10 Before and After",
+    "purpose": "Compare metrics before and after a key change.",
+    "fields": [
+      "before_0",
+      "before_1",
+      "before_2",
+      "before_3",
+      "after_0",
+      "after_1",
+      "after_2",
+      "after_3",
+      "TakeawayMessage",
+      "CTA"
+    ],
+    "template_text": "My first 10 results:\n- {before_1}\n- {before_2}\n- {before_3}\n- {before_4}\n\nMy last 10 results:\n- {after_1}\n- {after_2}\n- {after_3}\n- {after_4}\n\n{TakeawayMessage}\n\n{CTA}"
+  },
+  {
+    "id": 45,
+    "template_name": "Avoid These Mistakes",
+    "purpose": "Highlight 5 mistakes in a skill area and what to do instead.",
+    "fields": [
+      "mistake_1",
+      "mistake_2",
+      "mistake_3",
+      "mistake_4",
+      "mistake_5",
+      "explain_1",
+      "explain_2",
+      "explain_3",
+      "explain_4",
+      "explain_5",
+      "do_1_1",
+      "do_2_1",
+      "do_3_1",
+      "do_4_1",
+      "do_5_1",
+      "do_1_2",
+      "do_2_2",
+      "do_3_2",
+      "do_4_2",
+      "do_5_2",
+      "TakeawayMessage",
+      "CallToAction"
+    ],
+    "template_text": "Most people struggle with this. Avoid these 5 common mistakes:\n\n1. {mistake_1} \u2192 {explain_1}\nDo this instead:\n\u21b3 {do_1_1}\n\u21b3 {do_1_2}\n\n2. {mistake_2} \u2192 {explain_2}\nDo this instead:\n\u21b3 {do_2_1}\n\u21b3 {do_2_2}\n\n3. {mistake_3} \u2192 {explain_3}\nDo this instead:\n\u21b3 {do_3_1}\n\u21b3 {do_3_2}\n\n4. {mistake_4} \u2192 {explain_4}\nDo this instead:\n\u21b3 {do_4_1}\n\u21b3 {do_4_2}\n\n5. {mistake_5} \u2192 {explain_5}\nDo this instead:\n\u21b3 {do_5_1}\n\u21b3 {do_5_2}\n\n{TakeawayMessage}\n\n{CallToAction}"
+  },
+  {
+    "id": 46,
+    "template_name": "Common Advice \u2013 Real Steps",
+    "purpose": "Take a popular tip and break it down into real action steps.",
+    "fields": [
+      "common_advice",
+      "action",
+      "step_1",
+      "step_2",
+      "step_3",
+      "step_4",
+      "step_5",
+      "step_6",
+      "step_7",
+      "example_1",
+      "example_2",
+      "example_3",
+      "example_4",
+      "example_5",
+      "example_6",
+      "example_7",
+      "TakeawayMessage",
+      "CallToAction"
+    ],
+    "template_text": "Everyone on social media tells you to \u201c{common_advice}\u201d\n\nBut almost nobody tells you how.\n\nSo, here\u2019s how to {action} in 7 steps:\nStep 1 \u2013 {step_1}\nExample:\n\u21b3 {example_1}\nStep 2 \u2013 {step_2}\nExample:\n\u21b3 {example_2}\nStep 3 \u2013 {step_3}\nExample:\n\u21b3 {example_3}\nStep 4 \u2013 {step_4}\nExample:\n\u21b3 {example_4}\nStep 5 \u2013 {step_5}\nExample:\n\u21b3 {example_5}\nStep 6 \u2013 {step_6}\nExample:\n\u21b3 {example_6}\nStep 7 \u2013 {step_7}\nExample:\n\u21b3 {example_7}\n\n{TakeawayMessage}\n\n{CallToAction}"
+  },
+  {
+    "id": 47,
+    "template_name": "Break Down an Ingredient",
+    "purpose": "Share components of success using three key ingredients.",
+    "fields": [
+      "topic",
+      "valuable_asset",
+      "ingredient_1",
+      "ingredient_2",
+      "ingredient_3",
+      "component_1_1",
+      "component_2_1",
+      "component_3_1",
+      "component_1_2",
+      "component_2_2",
+      "component_3_2",
+      "outcome_1",
+      "outcome_2",
+      "outcome_3",
+      "example",
+      "feature",
+      "take_action",
+      "step_3_1",
+      "step_3_2",
+      "neg_outcome",
+      "rash_decision"
+    ],
+    "template_text": "I spent hours studying {topic} so you don\u2019t have to.\n\nHere are 3 ingredients that will turn your {topic} into {valuable_asset}:\n\n1. {ingredient_1}\n- {component_1_1}\n- {component_1_2}\nCombine both for {outcome_1}\n\n2. {ingredient_2}\n- Avoid this: {example}\n- Use {feature} and then {take_action}\n\n3. {ingredient_3}\n- Start by {step_3_1}, then {step_3_2} until you {outcome_3}\nDon\u2019t {neg_outcome}, but also don\u2019t {rash_decision}."
+  }
+]
