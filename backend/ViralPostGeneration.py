@@ -54,8 +54,7 @@ class GenerateLinkedInPostFromTitleAPIView(APIView):
         try:
             print(f"Generating posts...")
             response = generate_post(title, user_preferences, num_of_posts=1)
-            # formatted_post = format_linkedin_post(response)
-            formatted_post = "Check command prompt"
-            return Response(response["post_1"])
+            formatted_post = format_linkedin_post(response["post_1"])
+            return Response({"post": formatted_post})
         except Exception as e:
             return Response({'error': str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
