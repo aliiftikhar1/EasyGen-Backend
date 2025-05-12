@@ -53,7 +53,7 @@ class GenerateLinkedInPostFromTitleAPIView(APIView):
             return Response({'error': 'Title is required.'}, status=status.HTTP_400_BAD_REQUEST)
         try:
             print(f"Generating posts...")
-            response = generate_post(title, user_preferences, num_of_posts=3)
+            response = generate_post(title, user_preferences, num_of_posts=1)
             # formatted_post = format_linkedin_post(response)
             formatted_post = "Check command prompt"
             return Response(response["post_1"])
