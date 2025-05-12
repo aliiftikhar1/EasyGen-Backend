@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to EasyGen</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+        }
+        .header {
+            text-align: center;
+            padding: 20px 0;
+            background: linear-gradient(135deg, #6f42c1 0%, #4e73df 100%);
+            color: white;
+        }
+        .content {
+            padding: 20px;
+            color: #2c3e50;
+        }
+        .button {
+            display: inline-block;
+            padding: 12px 24px;
+            background: linear-gradient(135deg, #6f42c1 0%, #4e73df 100%);
+            color: #ffffff !important;
+            text-decoration: none;
+            border-radius: 4px;
+            margin: 20px 0;
+            transition: all 0.3s ease;
+        }
+        .button:hover {
+            background: linear-gradient(135deg, #5a32a3 0%, #3d5cb8 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            color: #ffffff !important;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 12px;
+            color: #6c757d;
+            border-top: 1px solid #e9ecef;
+        }
+        .verification-link {
+            word-break: break-all;
+            color: #4e73df;
+            text-decoration: none;
+        }
+        .verification-link:hover {
+            color: #6f42c1;
+        }
+        .social-links {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .social-links a {
+            margin: 0 10px;
+            color: #4e73df;
+            text-decoration: none;
+        }
+        .social-links a:hover {
+            color: #6f42c1;
+        }
+        .features {
+            margin: 20px 0;
+            padding: 0;
+            list-style: none;
+        }
+        .features li {
+            margin: 10px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+        .features li:before {
+            content: "✓";
+            color: #6f42c1;
+            position: absolute;
+            left: 0;
+        }
+        h2 {
+            color: #4e73df;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Welcome to EasyGen!</h1>
+        </div>
+        <div class="content">
+            <p>Hello {{ user.full_name }},</p>
+            
+            <p>Thank you for joining EasyGen! We're excited to have you on board. To get started, please verify your email address by clicking the button below:</p>
+            
+            <div style="text-align: center;">
+                <a href="{{ verification_link }}" class="button">Verify Email Address</a>
+            </div>
+            
+            <p>Or copy and paste this link into your browser:</p>
+            <p><a href="{{ verification_link }}" class="verification-link">{{ verification_link }}</a></p>
+
+            <h2>What's Next?</h2>
+            <ul class="features">
+                <li>Create engaging LinkedIn posts</li>
+                <li>Generate viral content ideas</li>
+                <li>Access premium templates</li>
+                <li>Get AI-powered writing suggestions</li>
+            </ul>
+
+            <p>If you have any questions or need assistance, our support team is here to help!</p>
+        </div>
+        
+        <div class="social-links">
+            <a href="#">Twitter</a> |
+            <a href="#">LinkedIn</a> |
+            <a href="#">Facebook</a>
+        </div>
+
+        <div class="footer">
+            <p>This email was sent to {{ user.email }}. If you didn't create an account with EasyGen, please ignore this email.</p>
+            <p>&copy; 2025 EasyGen. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html> 

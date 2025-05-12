@@ -20,6 +20,11 @@ class SignupSerializer(serializers.ModelSerializer):
 class MyTokenObtainPairSerializer(TokenObtainPairSerializer):
     def validate(self, attrs):
         data = super().validate(attrs)
+        
+        # Add custom claims if needed
+        token = self.get_token(self.user)
+        
+        # Add user data to response
         data.update({
             'user': {
                 'id': self.user.id,
@@ -30,6 +35,14 @@ class MyTokenObtainPairSerializer(TokenObtainPairSerializer):
             }
         })
         return data
+
+    @classmethod
+    def get_token(cls, user):
+        token = super().get_token(user)
+        # Add custom claims
+        token['email'] = user.email
+        token['full_name'] = user.full_name
+        return token
 
 class LoginSerializer(serializers.Serializer):
     email = serializers.EmailField()
