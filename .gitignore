@@ -44,6 +44,10 @@ htmlcov/
 # Compiled C files
 *.so
 
+# Django settings
+**/settings.py
+**/local_settings.py
+
 # Node stuff (if using frontend too)
 node_modules/
 dist/

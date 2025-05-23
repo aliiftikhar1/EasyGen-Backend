@@ -14,6 +14,7 @@ from django.shortcuts import get_object_or_404, render
 from django.template.loader import render_to_string
 from django.core.mail import EmailMessage
 from django.utils.html import strip_tags
+from rest_framework.permissions import IsAuthenticated
 
 
 class SignupView(APIView):
@@ -133,3 +134,21 @@ class VerifyEmailView(APIView):
             return render(request, 'email_verification_success.html', {
                 'error': 'An error occurred during verification. Please try again.'
             })
+
+
+class UserDetailsView(APIView):
+    permission_classes = [IsAuthenticated]
+
+    def get(self, request):
+        user = request.user
+        return Response({
+            'status': 'success',
+            'user': {
+                'id': user.id,
+                'email': user.email,
+                'full_name': user.full_name,
+                'phone_number': user.phone_number,
+                'zip_code': user.zip_code,
+                'is_verified': user.is_verified
+            }
+        }, status=status.HTTP_200_OK)
