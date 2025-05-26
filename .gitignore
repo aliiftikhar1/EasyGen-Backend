@@ -52,3 +52,5 @@ htmlcov/
 node_modules/
 dist/
 build/
+
+staticfiles/
